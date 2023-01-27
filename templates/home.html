@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ml API</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylenew.css') }}">
+</head>
+<body>
+    <div class="login">
+        <h1>Diabetes Predition </h1>
+        <form action="{{url_for('predict')}}"method="post">
+            <input type="int" name="Pregnancies" placeholder="Pregnancies" /><br>
+            <input type="int" name="Glucose" placeholder="Glucose" /><br>
+            <input type="int" name="BloodPressure" placeholder="BloodPressure" /><br>
+            <input type="int" name="SkinThickness" placeholder="SkinThickness" /><br>
+            <input type="int" name="Insulin" placeholder="Insulin" /><br>
+            <input type="float" name="BMI" placeholder="BMI" /><br>
+            <input type="float" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction" /><br>
+            <input type="int" name="Age" placeholder="Age" /><br>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        </form>
+        <br>
+        <br>
+    </div>
+
+</body>
+</html>

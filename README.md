@@ -1,6 +1,10 @@
 # Diabetes-Prognosis
 
 This code uses the PIMA Diabetes dataset to perform data analysis, data preprocessing, model training, and prediction.
+## CREATED BY
+
+- [THEERAJ SUBHAKAAR AS](https://github.com/TheerajSubhakaarAS)
+- [VARSHA THEJES SR](https://github.com/varshathejes)
 
 ## Dependencies
 The following dependencies are imported in this code:
@@ -40,4 +44,5 @@ The trained models are saved using the pickle module. The SVM model is saved as 
 ## Web Page
 ![diabetes first page](https://user-images.githubusercontent.com/73026163/227008354-9403aeff-66b1-45b6-b9d2-07758e6ba17e.png)
 
+## Output
 ![diabetes output page](https://user-images.githubusercontent.com/73026163/227008393-8a28d6cc-e839-47a9-88be-7625f3a4c607.png)

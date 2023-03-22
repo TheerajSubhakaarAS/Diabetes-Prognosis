@@ -36,3 +36,8 @@ An input data point is provided to the model, and the model predicts whether the
 
 ## Saving Trained Model
 The trained models are saved using the pickle module. The SVM model is saved as diabetes_model_SVM.sav, the KNN model is saved as diabetes_model_KNN.sav, and the Decision Tree model is saved as diabetes_model_DT.sav.
+
+## Web Page
+![diabetes first page](https://user-images.githubusercontent.com/73026163/227008354-9403aeff-66b1-45b6-b9d2-07758e6ba17e.png)
+
+![diabetes output page](https://user-images.githubusercontent.com/73026163/227008393-8a28d6cc-e839-47a9-88be-7625f3a4c607.png)
